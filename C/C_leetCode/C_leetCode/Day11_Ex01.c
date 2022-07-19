@@ -4,7 +4,7 @@
 
 
 //°Ë»ç¿ë
-int main() {
+int mn() {
 	char sarr[] = "banana";
 	for (int i = strlen(sarr)-1; i >= 0; i--) {
 		printf("%c", sarr[i]);
