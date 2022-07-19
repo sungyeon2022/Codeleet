@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addtwonum.c" />
+    <ClCompile Include="Day11_Ex01.c" />
     <ClCompile Include="gogodan.c" />
     <ClCompile Include="intToroman.c" />
     <ClCompile Include="practice.c" />
