@@ -131,6 +131,8 @@
     <ClCompile Include="Day11_Ex01.c" />
     <ClCompile Include="gogodan.c" />
     <ClCompile Include="intToroman.c" />
+    <ClCompile Include="LPS.c" />
+    <ClCompile Include="LSW.c" />
     <ClCompile Include="practice.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
