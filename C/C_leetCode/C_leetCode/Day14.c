@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main() {
+int masdfasdfasdfn() {
 	int a;
 	scanf_s("%d", &a);
 	int* num = (malloc(sizeof(int)*a));

@@ -15,8 +15,45 @@
 * 출력 음수 불가능
 */
 
-int Exfive(int a) {
+int main() {
 	int jango = 5000;
-		
+	int a;
+	int chul;
+	int ip;
+	
+	while (1) {
+		printf("원하시는 업무를 선택해 주십시오. \n 1. 잔액 조회, 2. 출금, 3. 입금, 4. 종료 \n");
+		scanf_s("%d", &a);
+		if (a == 1) {
+			printf("고객님의 계좌 잔액은 %d원입니다. \n", jango);
+		}
+		else if (a == 2) {
+			er:
+			printf("출금하실 금액을 입력해 주십시오.\n*잔액 이상의 금액은 불가능합니다. \n");
+			scanf_s("%d", &chul);
+			if (chul > jango) {
+				printf("처리할수 없는 금액입니다. \n 다시입력해 주십시오. \n");
+				goto er;
+			}
+			jango -= chul;
+			printf("%d원 출금이 완료되었습니다. \n남은 잔액은 %d원입니다.", chul, jango);
+		}
+		else if (a == 3) {
+			ip:
+			printf("입금하실 금액을 입력해 주십시오.\n*0이하의 금액은 불가능합니다. \n");
+			scanf_s("%d", &ip);
+			if (ip < 0) {
+				printf("처리할수 없는 금액입니다. \n 다시입력해 주십시오. \n");
+				goto ip;
+			}
+			jango += ip;
+			printf("%d원 입금이 완료되었습니다. \n남은 잔액은 %d원입니다.", ip, jango);
+		}
+		else if (a == 4) {
+			printf("프로그램을 종료하겠습니다.");
+		}
+		else {
+			printf("처리할수없는 업무입니다. 다시입력해주세요.\n")
+		}
 	}
 }
