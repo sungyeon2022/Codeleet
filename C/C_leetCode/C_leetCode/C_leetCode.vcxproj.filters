@@ -39,5 +39,14 @@
     <ClCompile Include="LPS.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigZag.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
