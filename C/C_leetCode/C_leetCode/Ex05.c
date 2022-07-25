@@ -15,7 +15,7 @@
 * 출력 음수 불가능
 */
 
-int main() {
+int in() {
 	int jango = 5000;
 	int a;
 	int chul;
@@ -53,7 +53,7 @@ int main() {
 			printf("프로그램을 종료하겠습니다.");
 		}
 		else {
-			printf("처리할수없는 업무입니다. 다시입력해주세요.\n")
+			printf("처리할수없는 업무입니다. 다시입력해주세요.\n");
 		}
 	}
 }
