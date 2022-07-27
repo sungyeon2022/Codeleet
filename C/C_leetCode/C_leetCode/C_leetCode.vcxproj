@@ -130,6 +130,7 @@
     <ClCompile Include="addtwonum.c" />
     <ClCompile Include="Day11_Ex01.c" />
     <ClCompile Include="Day14.c" />
+    <ClCompile Include="Ex06.c" />
     <ClCompile Include="intToroman.c" />
     <ClCompile Include="LPS.c" />
     <ClCompile Include="LSW.c" />
